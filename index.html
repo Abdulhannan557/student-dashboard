@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Student Dashboard</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+
+    <div class="profile-circle">
+      AH
+    </div>
+
+    <h1>Abdul Hannan</h1>
+
+    <div class="info">
+
+      <span>📘 University Dashboard</span>
+
+      <span>✉ abdulhannanof1134@gmail.com</span>
+
+      <span>
+        <a href="https://github.com/Abdulhannan557" target="_blank">
+          GitHub Profile
+        </a>
+      </span>
+
+    </div>
+
+  </section>
+
+  <!-- STATS (will update via JS later) -->
+  <section class="stats">
+
+    <div class="card">
+      <h2 id="repoCount">0</h2>
+      <p>GitHub Repos</p>
+    </div>
+
+    <div class="card">
+      <h2 id="projectCount">0</h2>
+      <p>Projects</p>
+    </div>
+
+    <div class="card">
+      <h2 id="videoCount">0</h2>
+      <p>Video Demos</p>
+    </div>
+
+  </section>
+
+  <!-- PROJECTS (NOW DYNAMIC) -->
+  <section class="projects">
+
+    <h2>Projects</h2>
+
+    <!-- JS will inject project cards here -->
+    <div id="project-grid" class="project-grid"></div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer style="text-align:center; padding:20px; color:gray;">
+    Abdul Hannan • Student Dashboard • GitHub Projects
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
